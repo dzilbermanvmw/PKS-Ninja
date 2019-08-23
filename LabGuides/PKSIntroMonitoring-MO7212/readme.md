@@ -1,6 +1,6 @@
 # PKS Intro to PKS Monitoring & Operations
 
-### 1.1 Configure Wavefront & vRLI in Enterprise PKS
+### 1.1 Configure Wavefront & vRLI monitoring in Enterprise PKS
 
 The steps in this lab walk you through installation of VMware vRealize Log Insight and Operations appliances in the same or different Data Center where NSX-T/PKS products are deployed, installation of NSX-T and PKS/Kubernetes management packs and content and configuration of those management packs to receive logs/events and metrics data from those products.
 
