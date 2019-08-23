@@ -2,49 +2,47 @@
 
 ### 1.1 Configure Wavefront & vRLI monitoring in Enterprise PKS
 
-The steps in this lab walk you through installation of VMware vRealize Log Insight and Operations appliances in the same or different Data Center where NSX-T/PKS products are deployed, installation of NSX-T and PKS/Kubernetes management packs and content and configuration of those management packs to receive logs/events and metrics data from those products.
+The steps in this lab access a wavefront intance that is only accessible to VMware emlployees, including accessing a pre-built PKS Dashboard. If you are not a VMware employee, you can follow along using your own wavefront account, but some steps may be different.
 
-THIS IS DEFINITELY WORK IN PROGRESS LAB
-
-1.1.1 Launch vRLI UI https://<IP of vRLI server> and land select "New Installation" option which should land on the following screen:
+1.1.1 From your workstation on the VMware network or vpn, open a web browser and go to Workspace ONE and search for "Wavefront-sandbox"
 
 <details><summary>Screenshot 1.1.1</summary>
-<img src="Images/vrli1.png">
+<img src="Images/1.png">
 </details>
 <br/>
 
-1.1.2 Continue to work with vRLI initial setup UI:
+1.1.2 Navigate to Integrations Page in Wavefront and search for "PKS"
 
 <details><summary>Screenshot 1.1.2</summary>
-<img src="Images/vrli2.png">
+<img src="Images/2.png">
 </details>
 <br/>
 
 1.1.3 Open the "VMware PKS" Integration. Navigate to the setup tab inside PKS. Copy the "Wavefront URL" and the "API Token"
 
 <details><summary>Screenshot 1.1.3</summary>
-<img src="Images/vrli3.png">
+<img src="Images/3.png">
 </details>
 <br/>
 
 1.1.4 From the Control Center desktop, navigate to Ops Manager at "opsman.corp.local" and open the PKS Tile
 
 <details><summary>Screenshot 1.1.4</summary>
-<img src="Images/vrli4.png">
+<img src="Images/4.png">
 </details>
 <br/>
 
 1.1.5 Select the monitoring tab to open the Wavefront integration page
 
 <details><summary>Screenshot 1.1.5</summary>
-<img src="Images/vrli5.png">
+<img src="Images/5.png">
 </details>
 <br/>
 
 1.1.6 Fill in the fields for "Wavefront URL" and "Wavefront Access Token" from step 1.1.3". Remember to press "Save" at the bottom of the page to save the configuration.
 
 <details><summary>Screenshot 1.1.6</summary>
-<img src="Images/vrli6.png">
+<img src="Images/6.png">
 </details>
 <br/>
 
