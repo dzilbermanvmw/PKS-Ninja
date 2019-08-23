@@ -1,6 +1,6 @@
 # PKS Intro to PKS Monitoring & Operations
 
-### 1.1 Configure Wavefront & vRLI in Enterprise PKS
+### 1.1 Configure Wavefront & vRLI monitoring in Enterprise PKS
 
 The steps in this lab access a wavefront instance that is only accessible to VMware emlployees, including accessing a pre-built PKS Dashboard. If you are not a VMware employee, you can follow along using your own wavefront account, but some steps may be different.
 
